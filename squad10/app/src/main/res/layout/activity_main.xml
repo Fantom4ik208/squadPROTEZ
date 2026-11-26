@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#12141A">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Тактический помощник"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Выбери раздел"
+            android:textColor="#9AA0A6"
+            android:textSize="14sp" />
+
+        <Button android:id="@+id/btnMaps"
+            android:layout_width="match_parent" android:layout_height="64dp"
+            android:layout_marginBottom="12dp" android:textSize="16sp"
+            android:text="Карты и точки" />
+
+        <Button android:id="@+id/btnMortar"
+            android:layout_width="match_parent" android:layout_height="64dp"
+            android:layout_marginBottom="12dp" android:textSize="16sp"
+            android:text="Миномётный калькулятор" />
+
+        <Button android:id="@+id/btnReticle"
+            android:layout_width="match_parent" android:layout_height="64dp"
+            android:layout_marginBottom="12dp" android:textSize="16sp"
+            android:text="Сетки гранатомётов" />
+
+        <Button android:id="@+id/btnArmor"
+            android:layout_width="match_parent" android:layout_height="64dp"
+            android:text="Зоны пробития техники" />
+    </LinearLayout>
+</ScrollView>
